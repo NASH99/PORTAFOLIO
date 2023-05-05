@@ -83,7 +83,9 @@ html, body {
 	color: #ffffff;
 }
 .text-color-red {
-	color: #2f0080;
+	background-image: linear-gradient(to right, indigo, red);   
+	-webkit-background-clip: text;
+	color: transparent;
 }
 .text-color-black {
 	color: #000000;
@@ -505,12 +507,14 @@ video {
 
 
 @media screen and (min-width: 768px) {
+
 	.hide-mobile {
 		display: none;
 	}
 }
 
 @media screen and (max-width: 767px) {
+
 	.hide-web {
 		display: none;
 	}

@@ -82,7 +82,9 @@ html, body {
 }
 
 .text-color-red {
-  color: #2f0080;
+  background-image: linear-gradient(to right, indigo, red);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .text-color-black {
