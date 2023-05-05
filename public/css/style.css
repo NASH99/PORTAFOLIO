@@ -82,7 +82,7 @@ html, body {
 }
 
 .text-color-red {
-  color: #ea0f1e;
+  color: #2f0080;
 }
 
 .text-color-black {
@@ -402,7 +402,7 @@ video {
 }
 
 .label-dejan:after {
-  content: "Dejan";
+  content: "NASH";
 }
 
 .label-dejan:hover:after {
@@ -465,7 +465,8 @@ video {
   right: 0;
   bottom: 0;
   left: 35%;
-  background-image: url(../img/DejanHome.png);
+  background-image: url(/public/img/imagen2.png);
+  filter: grayscale(100%);
   background-repeat: no-repeat;
   background-size: cover;
   animation: bg-photo 1.2s cubic-bezier(0.5, 0.6, 0.6, 1);
