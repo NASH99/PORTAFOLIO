@@ -48,7 +48,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-size: calc(1em + 1vw);
-  animation: circle-in-hesitate 2000ms;
+  animation: circle-in-hesitate 3000ms;
 }
 
 @keyframes circle-in-hesitate {
@@ -503,11 +503,6 @@ video {
   100% {
     opacity: 1;
     transform: scale(1);
-  }
-}
-@media screen and (max-width: 480px) {
-  .bg-photo {
-    left: -8%;
   }
 }
 /*	=====================================================================
