@@ -48,6 +48,21 @@ html, body {
   padding: 0;
   margin: 0;
   font-size: calc(1em + 1vw);
+  animation: circle-in-hesitate 2000ms;
+}
+
+@keyframes circle-in-hesitate {
+  0% {
+    -webkit-clip-path: circle(0%);
+            clip-path: circle(0%);
+  }
+  100% {
+    -webkit-clip-path: circle(250%);
+            clip-path: circle(250%);
+  }
+}
+[transition-style="in:circle:hesitate"] {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
 }
 
 /*	=====================================================================
