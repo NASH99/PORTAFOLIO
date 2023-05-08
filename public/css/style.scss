@@ -513,7 +513,11 @@ video {
 	0% {opacity: 0;transform: scale(1.1);}
 	100% {opacity: 1;transform: scale(1);}	
 }
-
+		@media screen and (max-width:480px) {
+			.bg-photo {
+				right: -10%;
+			}	
+		}
 
 
 /*	=====================================================================
